@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
-import NavigationBar from './components/NavigationBar'
 import Header from './components/Header'
+import Story from './components/Story'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      <Story />
     </>
   )
 }
