@@ -4,7 +4,7 @@ import Vector from '../assets/images/Vector Smart Object-2.png'
 
 function Product_2() {
   return (
-    <section className='h-[80vh] mb-[5rem]'>
+    <section className='h-[70vh]'>
       <div className='flex justify-center items-center h-full'>
         <div>
             <h3 className='font-(family-name:--second-font) font-bold text-5xl mb-[1rem]'>The perfect start to life</h3>
@@ -12,9 +12,9 @@ function Product_2() {
             <button className='uppercase'>Learn More</button>
         </div>
 
-        <div className='relative'>
-          <img src={Dog} className='w-2xs' />
-          <img src={Vector} className='absolute top-[0rem] right-[-3rem]' />
+        <div className='flex'>
+          <img src={Dog} className='w-70' />
+          <img src={Vector} className='h-40 relative -left-10' />
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 function About() {
     return (
         <section className='bg-[#f0f0f0] h-[50vh]'>
-            <div className='flex justify-between items-center h-full mx-[10rem] relative'>
+            <div className='flex justify-between items-center h-full mx-40'>
                 <div>
                     <h3 className='font-(family-name:--second-font) font-bold text-4xl mb-[2rem]'>Learn more about dog breeds</h3>
 
@@ -17,9 +17,11 @@ function About() {
                     <button className='uppercase'>View all</button>
                 </div>
 
-                <div><img src={Dog} className='w-[200px] absolute top-[-4rem] left-[22rem]' /></div>
+                <div>
+                    <img src={Dog} className='w-60' />
+                </div>
 
-                <div className='max-w-[400px]'>
+                <div>
                     <h3 className='font-(family-name:--second-font) font-bold text-4xl mb-[1rem]'>Thinking of getting a dog?</h3>
                     <p className='mb-[2rem]'>There are many things you need to know before getting a dog.</p>
                     <button className='uppercase'>Learn more</button>
