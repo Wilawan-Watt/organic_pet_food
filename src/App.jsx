@@ -16,11 +16,11 @@ function App() {
     <>
       <Header />
       <Story />
-      <Product_1 />
-      <Product_2 />
-      <About />
-      <FindProduct />
-      <Footer />
+      {/* <Product_1 /> */}
+      {/* <Product_2 /> */}
+      {/* <About /> */}
+      {/* <FindProduct /> */}
+      {/* <Footer /> */}
     </>
   )
 }

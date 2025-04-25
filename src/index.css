@@ -12,6 +12,11 @@ html, body {
     --second-font: "Amatic SC", sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
+
 /* From Uiverse.io by cssbuttons-io */ 
 button {
     --color: #2ea2d0;
