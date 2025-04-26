@@ -1,21 +1,19 @@
 import React from 'react'
 import FooterImage from '../assets/images/Footer Background.png'
-import TextBox from '../assets/images/Text-box-2.png'
 import DogLogo from '../assets/images/Dog-Logo.png'
 import { FaInstagram, FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className='h-[70vh] bg-cover' style={{ backgroundImage: `url(${FooterImage})` }}>
-      <div className='flex justify-end items-end mr-20'>
-        <div className='relative right-40'>
-          <div className='relative top-10'>
-            <img src={TextBox} className='w-100' />
-            <img src={DogLogo} className='relative -top-45 left-20 relative z-10' />
+    <footer className='bg-cover h-[25vh] lg:h-[40vh] flex justify-end items-center xl:h-[70vh]' style={{ backgroundImage: `url(${FooterImage})` }}>
+      <div className='flex flex-col items-end p-5 text-center md:p-15 xl:mr-40'>
+        <div>
+          <div className='flex justify-center'>
+            <img src={DogLogo} className='mb-5' />
           </div>
 
           <div>
-            <ul className="grid grid-cols-2 gap-2 uppercase font-bold relative z-10">
+            <ul className='grid grid-cols-2 gap-2 uppercase font-bold'>
               <li><a href="#">shop for dog</a></li>
               <li><a href="#">shop for cat</a></li>
               <li><a href="#">our story</a></li>
@@ -25,7 +23,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className='flex'>
+        <div className='flex mt-5'>
           <a href="#" className='mx-2'><FaInstagram size={28} color='#2ea2d0' /></a>
           <a href="#" className='mx-2'><FaFacebookF size={28} color='#2ea2d0' /></a>
           <a href="#" className='mx-2'><FaTwitter size={28} color='#2ea2d0' /></a>
