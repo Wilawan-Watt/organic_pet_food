@@ -3,8 +3,8 @@ import DogProduct from '../assets/images/Dog-Product.png'
 
 function FindProduct() {
   return (
-    <section className='h-[70vh]'>
-      <div className='flex justify-center items-center h-full flex-col lg:flex-row'>
+    <section className='h-auto md:h-[70vh]'>
+      <div className='flex justify-center items-center h-full flex-col my-10 md:my-10 lg:flex-row'>
         <div>
             <img src={DogProduct} className='w-sm mb-10 lg:mb-0' />
         </div>

@@ -5,8 +5,8 @@ import { FaInstagram, FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa6
 
 function Footer() {
   return (
-    <footer className='bg-cover h-[25vh] lg:h-[40vh] flex justify-end items-center xl:h-[70vh]' style={{ backgroundImage: `url(${FooterImage})` }}>
-      <div className='flex flex-col items-end p-5 text-center md:p-15 xl:mr-40'>
+    <footer className='bg-cover h-auto md:h-[50vh] lg:h-[40vh] flex justify-end items-center xl:h-[70vh]' style={{ backgroundImage: `url(${FooterImage})` }}>
+      <div className='flex flex-col items-end p-5 text-center bg-white/50 sm:bg-white/0 md:p-15 xl:mr-40'>
         <div>
           <div className='flex justify-center'>
             <img src={DogLogo} className='mb-5' />

@@ -4,8 +4,8 @@ import Vector from '../assets/images/Vector Smart Object-2.png'
 
 function Product_2() {
   return (
-    <section className='h-[70vh]'>
-      <div className='flex justify-center items-center h-full flex-col md:flex-row mx-10'>
+    <section className='md:h-[70vh]'>
+      <div className='flex justify-center items-center h-full flex-col my-10 md:flex-row mx-10'>
         <div>
             <h3 className='font-(family-name:--second-font) font-bold text-5xl mb-[1rem]'>The perfect start to life</h3>
             <p className='max-w-[500px] mb-[2rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
